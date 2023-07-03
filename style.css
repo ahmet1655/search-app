@@ -1,0 +1,56 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchInput{
+    width: 75%;
+    margin: 20px 0px;
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.button-wrapper{
+    margin: 10px 0px;
+}
+
+ #searchButton{
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    margin-right: 10px;
+    padding: 3px;
+    color: #fff;
+ }
+
+ #clearButton{
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    margin-right: 10px;
+    padding: 3px;
+    color: #fff;
+}
+ 
+.image-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.image-wrapper > .card{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    
+    
+    
+}
